@@ -10,7 +10,7 @@ Write-Host 'Running "prepdocs.py"'
 
 
 $cwd = (Get-Location)
-$dataArg = "`"$cwd/data/*`""
+$dataArg = "`"$cwd/data/Employment contract.docx`""
 $additionalArgs = ""
 if ($args) {
   $additionalArgs = "$args"
